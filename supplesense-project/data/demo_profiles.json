@@ -1,0 +1,82 @@
+{
+  "profiles": [
+    {
+      "id": "sport_performance",
+      "label": "Deportivo (rendimiento)",
+      "intake": {
+        "age": 35,
+        "sex": "male",
+        "weight": 70,
+        "height": 176,
+        "diet": "omnivore",
+        "activity": "amateur",
+        "sleepHours": 7,
+        "coffeePerDay": 2,
+        "alcohol": "low",
+        "sun": "low",
+        "medicalFlags": [],
+        "meds": [],
+        "goals": [
+          "performance",
+          "muscle"
+        ],
+        "fishPerWeek": 0,
+        "proteinPerKg": 1.2,
+        "budget": "medium"
+      }
+    },
+    {
+      "id": "stress_focus",
+      "label": "Estr\u00e9s / foco (cognitivo)",
+      "intake": {
+        "age": 38,
+        "sex": "female",
+        "weight": 60,
+        "height": 165,
+        "diet": "omnivore",
+        "activity": "recreational",
+        "sleepHours": 6,
+        "coffeePerDay": 3,
+        "alcohol": "medium",
+        "sun": "medium",
+        "medicalFlags": [],
+        "meds": [
+          "ssri"
+        ],
+        "goals": [
+          "focus",
+          "stress",
+          "energy"
+        ],
+        "fishPerWeek": 1,
+        "proteinPerKg": 1.0,
+        "budget": "low"
+      }
+    },
+    {
+      "id": "digestive_health",
+      "label": "Digestivo (salud GI)",
+      "intake": {
+        "age": 42,
+        "sex": "male",
+        "weight": 80,
+        "height": 178,
+        "diet": "vegetarian",
+        "activity": "recreational",
+        "sleepHours": 7,
+        "coffeePerDay": 1,
+        "alcohol": "low",
+        "sun": "high",
+        "medicalFlags": [],
+        "meds": [],
+        "goals": [
+          "digestive",
+          "energy"
+        ],
+        "fishPerWeek": 0,
+        "proteinPerKg": 1.1,
+        "budget": "medium"
+      }
+    }
+  ]
+}

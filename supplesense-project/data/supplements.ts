@@ -1,0 +1,9 @@
+
+export const SUPPLEMENTS = [
+  { id:"protein", name:"Proteína en polvo", category:"Macronutriente", objectives:["performance","muscle","composition"], mechanism:"Aminoácidos esenciales para síntesis muscular y recuperación.", evidence:"A", dose:"20-40g post-entreno", timing:"Post-entreno o entre comidas", interactions:[], adverse:[], level:1, cost:25 },
+  { id:"creatine", name:"Creatina Monohidratada", category:"Rendimiento", objectives:["performance","muscle"], mechanism:"Aumenta fosfocreatina → más ATP en esfuerzos cortos.", evidence:"A", dose:"3–5 g/día", timing:"Con comida o post-entreno", interactions:["Insuficiencia renal"], adverse:["Molestias GI altas dosis"], level:2, cost:12 },
+  { id:"omega3", name:"Omega-3 (EPA/DHA)", category:"Salud cardiovascular", objectives:["health","cognition"], mechanism:"Modula membranas y vías inflamatorias.", evidence:"A", dose:"1–2 g/día EPA+DHA", timing:"Con comidas grasas", interactions:["Anticoagulantes"], adverse:["Reflujo si baja calidad"], level:1, cost:18 },
+  { id:"vitd3", name:"Vitamina D3", category:"Micronutriente", objectives:["health","muscle"], mechanism:"Regula calcio, inmunidad y función muscular.", evidence:"A", dose:"1000–2000 UI/día", timing:"Con comida", interactions:["Hipercalcemia, sarcoidosis"], adverse:[], level:1, cost:6 },
+  { id:"magnesium", name:"Magnesio (bisglicinato/citrato)", category:"Micronutriente", objectives:["sleep","stress"], mechanism:"Cofactor en >300 enzimas; modula SNC.", evidence:"B", dose:"200–400 mg elemental/noche", timing:"Nocturno", interactions:["Antibióticos: separar 2–4h"], adverse:["Diarrea con óxido"], level:2, cost:10 },
+  { id:"ltheanine", name:"L-teanina", category:"Cognición", objectives:["focus","stress"], mechanism:"Aumenta ondas alfa sin sedación.", evidence:"B", dose:"100–200 mg (± 50–100 mg cafeína)", timing:"Mañana / tareas cognitivas", interactions:["Cautela con ansiolíticos"], adverse:["Cefalea leve rara"], level:2, cost:8 }
+];
